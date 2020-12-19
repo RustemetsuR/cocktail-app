@@ -1,0 +1,88 @@
+.single-cocktail-info-box img {
+    width: 50%;
+    float: left;
+    border-radius: 35px;
+}
+
+.single-cocktail-info-box ul {
+    display: inline-block;
+    list-style: decimal;
+}
+
+.single-cocktail-info-box ul li {
+    margin: 10px;
+    border-bottom: 1px solid rgb(39, 39, 39);
+    padding: 10px 0;
+}
+
+.single-cocktail-title {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 2px solid rgb(39, 39, 39);
+    padding-bottom: 10px;
+}
+
+.ingredients-title {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.single-cocktail-info-box .line {
+    color: black;
+    width: 100px;
+    border: rgb(39, 39, 39) 1px solid;
+}
+
+.recipe-box{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.recipe-title{
+    text-align: center;
+}
+
+.recipe-box p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.status-sign{
+    position: absolute;
+    right: 10%;
+    font-size: 15px;
+}
+
+.admin-cocktail-buttons{
+    cursor: pointer;
+    border: 1px solid rgb(39, 39, 39);
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    background: none;
+    color: wheat;
+    font-weight: bold;
+}
+
+.publish-cocktail-button:hover{
+    background: rgb(104, 155, 28);
+    transition: 1s;
+}
+
+.delete-cocktail-button:hover{
+    background: rgb(172, 0, 0);
+    transition: 1s;
+}
+
+.published-sign span{
+    color: greenyellow;
+}
+
+.unpublished-sign span{
+    color: gray;
+}

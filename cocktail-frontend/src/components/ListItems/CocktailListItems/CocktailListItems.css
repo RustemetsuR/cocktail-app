@@ -1,0 +1,19 @@
+.cocktail-card {
+    width: 45%;
+    margin: 10px 0;
+    border-radius: 35px;
+    background: rgb(39, 39, 39);
+    cursor: pointer;
+}
+
+.cocktail-card h3{
+    font-weight: normal;
+    text-align: center;
+}
+
+.cocktail-card img {
+    width: 100%;
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
+    border-bottom: 1px solid rgb(179, 160, 128);
+}

@@ -1,0 +1,47 @@
+.add-cocktail-form{
+    border: 1px solid rgb(39,39,39);
+    padding: 50px;
+}
+
+.add-cocktail-form label{
+    float: left;
+    margin: 0;
+}
+
+
+.input-boxes{
+    margin: 10px 0;
+}
+
+.name-input-box, .recipe-input-box{
+    display: flex;
+    align-items: center;
+}
+
+
+.name-input-box input, 
+.recipe-input-box textarea{
+    margin: 0 10px;
+}
+
+.recipe-input-box textarea{
+    resize: none;
+    width: 100%;
+    height: 300px;
+}
+
+
+.ingredients-inputs-box{
+    overflow: hidden;
+    position: relative;
+}
+
+.ingredients-inputs-box input{
+    margin-left: 10px;
+}
+
+.add-input-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+}

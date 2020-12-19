@@ -1,0 +1,10 @@
+.App {
+  background: rgb(179, 160, 128);
+  min-height: 100vh;
+  color: wheat;
+}
+
+.App a{
+  color: wheat;
+}
+
